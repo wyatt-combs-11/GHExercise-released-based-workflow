@@ -31,7 +31,7 @@ jobs:
 
   on_release_published:
     name: On release v1.0 published
-#     needs: get_current_step
+    needs: get_current_step
 
     # We will only run this action when:
     # 1. This repository isn't the template repository.
